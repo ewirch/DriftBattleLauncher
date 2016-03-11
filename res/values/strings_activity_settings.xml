@@ -1,0 +1,23 @@
+<resources>
+
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+	<string name="pref_start_tone_duration">Start Tone Duration</string>
+	<string name="pref_use_start_tone">Honk On Start</string>
+	<string name="pref_switch_duration">Red Light Switch Delay</string>
+	<string name="pref_afterStart_title">After Start</string>
+	
+	<string-array name="afterStartEntries">
+	    <item name="green_on">Green On</item>
+	    <item name="delayed_red">Delayed Red</item>
+	    <item name="delayed_off">Delayed Off</item>
+	</string-array>
+	<string-array name="afterStartEntryValues">
+	    <item name="green_on">green_on</item>
+	    <item name="delayed_red">delayed_red</item>
+	    <item name="delayed_off">delayed_off</item>
+	</string-array>
+	
+</resources>

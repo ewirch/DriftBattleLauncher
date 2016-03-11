@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <ImageButton
+        android:id="@+id/redButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/allOffButton"
+        android:layout_toLeftOf="@+id/greenButton"
+        android:contentDescription="@string/red"
+        android:onClick="onRedClicked"
+        android:src="@drawable/ampel_rot" />
+
+    <ImageButton
+        android:id="@+id/allOffButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/greenButton"
+        android:layout_toRightOf="@+id/greenButton"
+        android:contentDescription="@string/allOff"
+        android:onClick="onAllOffClicked"
+        android:src="@drawable/ampel_aus" />
+
+    <ImageButton
+        android:id="@+id/hornButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/allOffButton"
+        android:layout_alignTop="@+id/startBattleButton"
+        android:contentDescription="@string/horn"
+        android:src="@drawable/troete" />
+
+    <ImageButton
+        android:id="@+id/greenButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hornButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:contentDescription="@string/green"
+        android:onClick="onGreenClicked"
+        android:src="@drawable/ampel_gruen" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text=""
+        android:visibility="invisible" />
+
+    <ImageButton
+        android:id="@+id/startBattleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_alignLeft="@+id/redButton"
+        android:layout_marginBottom="30dp"
+        android:contentDescription="@string/startBattle"
+        android:onClick="onStartBattle"
+        android:src="@drawable/battle" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/driftFreaksBerlin"
+        android:src="@drawable/background" />
+
+</RelativeLayout>

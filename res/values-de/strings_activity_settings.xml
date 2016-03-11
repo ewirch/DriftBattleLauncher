@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+	<string name="pref_start_tone_duration">Dauer des Starttons</string>
+	<string name="pref_use_start_tone">Ton beim Start abspielen</string>
+	<string name="pref_switch_duration">Ampel Umschalt-Dauer</string>
+	<string name="pref_afterStart_title">Nach dem Start</string>
+	
+	<string-array name="afterStartEntries">
+	    <item name="green_on">Grün an</item>
+	    <item name="delayed_red">Verzögert Rot</item>
+	    <item name="delayed_off">Verzögert Aus</item>
+	</string-array>
+	<string-array name="afterStartEntryValues">
+	    <item name="green_on">green_on</item>
+	    <item name="delayed_red">delayed_red</item>
+	    <item name="delayed_off">delayed_off</item>
+	</string-array>
+</resources>

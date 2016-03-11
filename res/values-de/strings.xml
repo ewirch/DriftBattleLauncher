@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Battle Launcher</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="title_activity_device_discovery">Geräte Finden</string>
+    <string name="discoveryInProgress">weitere Geräte werden gesucht&#8230;</string>
+    <string name="connectionInProgress">Verbinde mit Gerät&#8230;</string>
+    <string name="checkingArduino">Prüfe Gerätetyp&#8230;</string>
+    <string name="btNotSupported">Bluetooth wird von diesem Gerät nicht unterstützt.</string>
+    <string name="btEnablingFailed">Bluetooth konnte nicht aktiviert werden.</string>
+    <string name="btDeviceRequired">Es wird ein Bluetooth-Gerät für den Betrieb benötigt.</string>
+    <string name="btTimeout">Es ist ein Timeout aufgetreten.</string>
+    <string name="notAnArduino">Das ausgewählte Gerät ist keine Arduino-Ampel. Bitte Arduino-Ampel auswählen.</string>
+    <string name="startBattle">Battle starten</string>
+    <string name="horn">Horn</string>
+    <string name="red">rot</string>
+	<string name="green">grün</string>
+	<string name="allOff">aus</string>
+	<string name="driftFreaksBerlin">Drift-Freaks-Berlin</string>
+
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:eduwirch="http://wirch.edu" >
+    
+    <edu.wirch.driftbattlelauncher.pref.SeekBarPreference
+        android:defaultValue="1000"
+        android:key="switchDuration"
+        android:max="5000"
+        android:title="@string/pref_switch_duration"
+        eduwirch:min="10"
+        eduwirch:unitsLeft=""
+        eduwirch:unitsRight="ms" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="useStartTone" 
+        android:title="@string/pref_use_start_tone"
+        />
+
+    <edu.wirch.driftbattlelauncher.pref.SeekBarPreference
+        android:defaultValue="1000"
+        android:key="startToneDuration"
+        android:max="5000"
+        android:title="@string/pref_start_tone_duration"
+        eduwirch:min="10"
+        eduwirch:unitsLeft=""
+        eduwirch:unitsRight="ms" />
+    <ListPreference android:key="afterStart" android:title="@string/pref_afterStart_title"
+        android:entries="@array/afterStartEntries" android:entryValues="@array/afterStartEntryValues"
+        android:defaultValue="delayed_off"/>
+
+</PreferenceScreen>

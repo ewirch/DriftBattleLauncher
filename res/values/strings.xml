@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Battle Launcher</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_device_discovery">Discovering Devices</string>
+    <string name="discoveryInProgress">looking for devices&#8230;</string>
+    <string name="connectionInProgress">Connecting&#8230;</string>
+    <string name="checkingArduino">Checking device type&#8230;</string>
+    <string name="btNotSupported">Bluetooth is not supported by this device.</string>
+    <string name="btEnablingFailed">Not able to activate Bluetooth.</string>
+    <string name="btDeviceRequired">A Bluetooth device is required.</string>
+    <string name="btTimeout">A time out occurred.</string>
+    <string name="notAnArduino">The chosen device is not an Arduino traffic light. Please choose a Arduino traffic light.</string>
+    <string name="startBattle">Start Battle</string>
+    <string name="horn">Honk</string>
+    <string name="red">red</string>
+	<string name="green">green</string>
+	<string name="allOff">off</string>
+	<string name="driftFreaksBerlin">Drift-Freaks-Berlin</string>
+</resources>
